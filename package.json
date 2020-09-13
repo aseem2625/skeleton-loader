@@ -1,0 +1,41 @@
+{
+  "name": "skeleton-loader",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A smart approach to Skeleton loader in React",
+  "author": "Aseem Gupta",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aseem2625/skeleton-loader.git"
+  },
+  "keywords": [
+    "react",
+    "skeleton-loader"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && npm run build:docs",
+    "build:docs": "mkdir -p docs && cp -R build/** docs/",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
