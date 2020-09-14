@@ -10,7 +10,10 @@ import SkeletonLoader, { SkeletonLoaderBone } from '../../../../../components/Sk
 * 1. Created using composition of SkeletonLoader and SkeletonLoaderBone.
 * 2. Hierarchy of bones is exactly same as the actual component, UserExpense. However, for multi-line values like address or description, hierarchy can be easily adjusted, thus, giving us more flexibility in this approach.
 *
-* 3. This component doesn't need to have its own .css file
+* 4. So, the ease of creating another Loader component is as simple as duplicating the original component, and replacing div, span, etc with SkeletonLoaderBone
+*
+* 3. This component doesn't need to have its own .css file, as the styles are derived by the classes in actual component.
+*
 * */
 
 function UserExpenseLoader() {

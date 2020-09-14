@@ -9,7 +9,7 @@ import mockProfileImg from '../../../../../assets/logo.svg';
 
 const mockUserExpense = {
 	amount_formatted: '4,500',
-	description: 'Friday TGIF trip to movie for the team members in PVR Cinemas',
+	description: 'Friday TGIF trip to PVR movie for all the Marvel-fan team members',
 	currency_symbol: '₹',
 	date_formatted: '14 Sep, 2020',
 	user_details: {
