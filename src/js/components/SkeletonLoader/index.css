@@ -24,9 +24,9 @@
 
 @keyframes animation-Shimmer {
   0% {
-    background-position: 50% 0;
+    background-position: 100% 0;
   }
   100% {
-    background-position: -50% 0;
+    background-position: -100% 0;
   }
 }
