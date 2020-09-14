@@ -1,3 +1,4 @@
 .Demo {
-    margin: 40px
+    position: relative;
+    margin: 40px 0;
 }

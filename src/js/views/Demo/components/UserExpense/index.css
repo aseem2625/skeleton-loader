@@ -1,6 +1,7 @@
 .UserExpense {
     position: relative;
-    width: 420px;
+    max-width: 420px;
+    min-width: 360px;
     margin: 0 auto;
     text-align: left;
     background: #fff;
