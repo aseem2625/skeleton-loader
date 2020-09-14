@@ -19,9 +19,14 @@ npm run build
 npx serve -s build // To serve production build
 ```
 
-#### Try Demo
-[Here](https://aseem2625.github.io/skeleton-loader)
+#### Try Demo [Here](http://aseem2625.github.io/skeleton-loader)
 
+
+#### Check Approach [Here](https://github.com/aseem2625/skeleton-loader/blob/master/APPROACH.md)
+
+<br />
+
+---
 
 
 **Credits:** This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
