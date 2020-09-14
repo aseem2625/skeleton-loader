@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/skeleton-loader/static/css/main.849a283e.chunk.css",
-    "main.js": "/skeleton-loader/static/js/main.236a1285.chunk.js",
-    "main.js.map": "/skeleton-loader/static/js/main.236a1285.chunk.js.map",
+    "main.js": "/skeleton-loader/static/js/main.275c9557.chunk.js",
+    "main.js.map": "/skeleton-loader/static/js/main.275c9557.chunk.js.map",
     "runtime-main.js": "/skeleton-loader/static/js/runtime-main.9d32dad6.js",
     "runtime-main.js.map": "/skeleton-loader/static/js/runtime-main.9d32dad6.js.map",
     "static/js/2.4686f576.chunk.js": "/skeleton-loader/static/js/2.4686f576.chunk.js",
     "static/js/2.4686f576.chunk.js.map": "/skeleton-loader/static/js/2.4686f576.chunk.js.map",
     "index.html": "/skeleton-loader/index.html",
-    "precache-manifest.2741a3f326bfb3ee0bc77621dd0e6d4a.js": "/skeleton-loader/precache-manifest.2741a3f326bfb3ee0bc77621dd0e6d4a.js",
+    "precache-manifest.32d87ce76c8fea7cc5453bea40d48082.js": "/skeleton-loader/precache-manifest.32d87ce76c8fea7cc5453bea40d48082.js",
     "service-worker.js": "/skeleton-loader/service-worker.js",
     "static/css/main.849a283e.chunk.css.map": "/skeleton-loader/static/css/main.849a283e.chunk.css.map",
     "static/js/2.4686f576.chunk.js.LICENSE.txt": "/skeleton-loader/static/js/2.4686f576.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9d32dad6.js",
     "static/js/2.4686f576.chunk.js",
     "static/css/main.849a283e.chunk.css",
-    "static/js/main.236a1285.chunk.js"
+    "static/js/main.275c9557.chunk.js"
   ]
 }
