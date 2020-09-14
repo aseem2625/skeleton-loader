@@ -7,12 +7,14 @@ import { classList } from '../../modules/utils';
 import './index.css'
 
 
-function SkeletonLoader ({ className, children, ...restProps }) {
+function SkeletonLoader ({ className, children, isDarkBG, isAnimate = true, ...restProps }) {
 	return (
 		<div
 			{...restProps}
 			className={classList(
 				'SkeletonLoader',
+				isDarkBG && 'SkeletonLoader--darkBG',
+				isAnimate && 'SkeletonLoader--animate',
 				className
 			)}
 		>
@@ -26,7 +28,9 @@ function SkeletonLoader ({ className, children, ...restProps }) {
 
 SkeletonLoader.propTypes = {
 	className: PropTypes.string,
-	children: PropTypes.node,
+	children: PropTypes.node.isRequired,
+	isDarkBG: PropTypes.bool,
+	isAnimate: PropTypes.bool,
 };
 
 export default SkeletonLoader;
