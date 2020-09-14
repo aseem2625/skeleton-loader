@@ -26,7 +26,7 @@ function SkeletonLoader ({ className, children, ...restProps }) {
 
 SkeletonLoader.propTypes = {
 	className: PropTypes.string,
-	children: PropTypes.element,
+	children: PropTypes.node,
 };
 
 export default SkeletonLoader;

@@ -18,8 +18,16 @@ function SkeletonLoaderBone({ className, width, height, style, isRound = true })
 SkeletonLoaderBone.propTypes = {
 	className: PropTypes.string,
 	style: PropTypes.object,
-	width: PropTypes.number.isRequired,
-	height: PropTypes.number.isRequired,
+	width: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.number,
+	]),
+
+	height: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.number,
+	]),
+
 	isRound: PropTypes.bool,
 };
 

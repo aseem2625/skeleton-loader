@@ -13,7 +13,7 @@ export default class UserExpense extends React.Component {
 		let content;
 
 		if (isLoading) {
-			content = <UserExpense_Loader />;
+			content = <UserExpenseLoader />;
 		} else if (!isLoading && data) {
 			content = (
 				<div className="UserExpense-content">
@@ -48,9 +48,9 @@ export default class UserExpense extends React.Component {
 	}
 }
 
-export function UserExpense_Loader() {
+export function UserExpenseLoader() {
 	return (
-		<div className="UserExpense-content UserExpense_Loader">
+		<div className="UserExpense-content UserExpenseLoader">
 			<div className="VirtualCard">
 				<SkeletonLoader>
 					<SkeletonLoaderBone />
@@ -59,7 +59,7 @@ export function UserExpense_Loader() {
 
 			<SkeletonLoader className="UserExpense-details">
 				<div className="UserDetails">
-					<SkeletonLoaderBone className="UserDetails-profileImg" />
+					<SkeletonLoaderBone className="UserDetails-profileImg" width={48} height={48} />
 					<SkeletonLoaderBone className="UserDetails-title" width={200} height={20} />
 				</div>
 
