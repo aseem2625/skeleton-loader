@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05d6a467e7087ea3b5772c24eee39918",
+    "revision": "273ac7f6800ef7fbe7ce162aab8cda62",
     "url": "/skeleton-loader/index.html"
   },
   {
-    "revision": "a224e02fd1116a070518",
-    "url": "/skeleton-loader/static/css/main.849a283e.chunk.css"
+    "revision": "aa02f116192f67270bc0",
+    "url": "/skeleton-loader/static/css/main.1e22024f.chunk.css"
   },
   {
     "revision": "3c50e5f1184220359376",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skeleton-loader/static/js/2.4686f576.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a224e02fd1116a070518",
-    "url": "/skeleton-loader/static/js/main.275c9557.chunk.js"
+    "revision": "aa02f116192f67270bc0",
+    "url": "/skeleton-loader/static/js/main.c7455657.chunk.js"
   },
   {
     "revision": "1943b89c9192037967ac",
