@@ -20,17 +20,25 @@ function UserExpenseLoader() {
 			<div className="VirtualCard">
 				<SkeletonLoader isDarkBG>
 					<SkeletonLoaderBone className="VirtualCard-profileImg" width={48} height={48} />
-					<SkeletonLoaderBone className="VirtualCard-title" width={200} height={24} />
+
+					<div class="VirtualCard-details">
+						<SkeletonLoaderBone className="VirtualCard-title" width={200} height={24} />
+						<SkeletonLoaderBone className="VirtualCard-description" width={100} height={18} />
+					</div>
 				</SkeletonLoader>
 			</div>
 
 			{/* 2nd Skeleton loader. Works seamlessly with other SkeletonLoaders in same column */}
 			<SkeletonLoader className="UserExpense-details">
-				<SkeletonLoaderBone className="title" width={140} height={20} />
-				<SkeletonLoaderBone className="description expense-amount" width={100} height={36} />
+				<SkeletonLoaderBone className="title" width={140} height={16} />
+				<SkeletonLoaderBone className="description expense-amount" width={100} height={20} />
 
-				<SkeletonLoaderBone className="title" width={100} height={20} />
-				<SkeletonLoaderBone className="description" width="80%" height={24} />
+				<SkeletonLoaderBone className="title" width={100} height={16} />
+				<SkeletonLoaderBone className="description" width="90%" height={18} />
+				<SkeletonLoaderBone className="description" width="70%" height={18} />
+
+				<SkeletonLoaderBone className="title" width={100} height={16} />
+				<SkeletonLoaderBone className="description" width={120} height={18} />
 
 				<div className="UserExpense-actions">
 					<SkeletonLoaderBone className="UserExpense-actions-btn" width={100} height={48} />

@@ -2,45 +2,74 @@
     position: relative;
     width: 420px;
     margin: 0 auto;
+    text-align: left;
     background: #fff;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .UserExpense-details {
     padding: 0 16px;
 }
 
-.expense-amount {
-    font-size: 24px;
-    margin: 4px 0
-}
-
 .title {
-    font-size: 13px;
-    margin: 16px 0 4px
+    margin: 16px 0 4px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #afafaf;
 }
 
 .description {
+    line-height: 20px;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 
+.expense-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #10d6a0;
+}
+
+.description + .title {
+    margin-top: 28px;
+}
 
 .UserExpense-actions {
-    text-align: right;
+    margin-top: 28px;
     padding: 16px 0;
-    border-top: 1px solid #cccccc;
+    text-align: right;
+    border-top: 1px solid #e8e8e8;
 }
 
 .UserExpense-actions-btn {
     display: inline-block;
     vertical-align: middle;
+    padding: 0 12px;
+    height: 48px;
+    min-width: 100px;
+    line-height: 48px;
+    font-size: 13px;
+    border-radius: 24px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .UserExpense-actions-btn:nth-child(n+2) {
-    margin-left: 16px
+    margin-left: 16px;
 }
 
+.UserExpense-actions-btn--approve {
+    background: #16af16;
+    color: #fff
+}
+
+.UserExpense-actions-btn--request {
+    background: blue;
+    color: #fff
+}
 
 /* VirtualCard can be different component. Below code be moved to separate file VirtualCard/index.css  */
 
@@ -50,19 +79,36 @@
     border-radius: 12px;
     background-color: #172232;
     padding: 16px;
-    text-align: left;
+    color: #f2f2f2
 }
 
 .VirtualCard-profileImg {
     display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
     width: 48px;
     height: 48px;
+    padding: 4px;
+    vertical-align: top;
+    border-radius: 50%;
+}
+
+.VirtualCard-details {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .VirtualCard-title {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 16px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.VirtualCard-description {
+    font-size: 14px;
+    opacity: .8
+}
+
+.UserExpenseLoader {
+    cursor: wait;
 }
