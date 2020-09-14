@@ -28,7 +28,7 @@ code {
   cursor: pointer;
 }
 
-.btn::hover {
+.btn:hover {
   opacity: .9;
 }
 

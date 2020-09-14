@@ -1,6 +1,6 @@
 ### Description
 
-A smart approach to implement skeleton loader in React.
+A simple-scalable approach to implement skeleton loader in React.
 
 #### Development
 
