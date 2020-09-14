@@ -6,17 +6,21 @@ import { classList } from '../../../modules/utils';
 import './index.css'
 
 
-function SkeletonLoaderBone({children, className, ...restProps}) {
+function SkeletonLoaderBone({ className, width, height, style, isRound = true }) {
 	return (
-		<div className={classList('SkeletonLoader-Bone', className)} {...restProps}>
-			{children}
-		</div>
+		<div
+			className={classList('SkeletonLoader-Bone', isRound && 'SkeletonLoader-Bone--round', className)}
+			style={{...style, width, height}}
+		/>
 	)
 }
 
 SkeletonLoaderBone.propTypes = {
 	className: PropTypes.string,
-	children: PropTypes.element,
+	style: PropTypes.object,
+	width: PropTypes.number.isRequired,
+	height: PropTypes.number.isRequired,
+	isRound: PropTypes.bool,
 };
 
 
