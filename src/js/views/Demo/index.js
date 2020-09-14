@@ -2,7 +2,7 @@ import React from 'react';
 
 import UserExpense from './components/UserExpense';
 
-import './index.css'
+import './index.scss'
 
 
 export default class Demo extends React.Component {

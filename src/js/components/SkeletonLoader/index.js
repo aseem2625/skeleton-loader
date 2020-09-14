@@ -4,7 +4,7 @@ import { PropTypes } from 'prop-types';
 import SkeletonLoaderBone from './SkeletonLoaderBone';
 import { classList } from '../../modules/utils';
 
-import './index.css'
+import './index.scss';
 
 
 function SkeletonLoader ({ className, children, isDarkBG, isAnimate = true, ...restProps }) {

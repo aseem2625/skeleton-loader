@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types';
 
 import { classList } from '../../modules/utils';
 
-import './index.css'
+import './index.scss';
 
 
 function Card ({ className, children, ...restProps }) {

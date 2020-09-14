@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '../../../../components/Card/';
 import UserExpenseLoader from './components/UserExpenseLoader';
 
-import './index.css'
+import './index.scss'
 
 import mockProfileImg from '../../../../../assets/logo.svg';
 
